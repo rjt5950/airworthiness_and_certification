@@ -21,8 +21,6 @@ airworthiness_and_certification/
       css/
       js/
       images/
-    preview/
-    tools/
     README.md
 ```
 
