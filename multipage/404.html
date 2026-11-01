@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#102d47">
+<title>Page not found | Society for Airworthiness and Certification</title>
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="icon" href="assets/images/cemilac_logo.png" type="image/jpeg" sizes="any">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  .error-page { min-height: 100dvh; display: flex; align-items: center; justify-content: center; background: var(--navy-dark); color: #e0e7ed; text-align: center; padding: 40px 20px; }
+  .error-code { font-family: var(--serif); font-size: clamp(90px, 18vw, 170px); font-weight: 600; line-height: 1; letter-spacing: -4px; color: var(--gold); margin: 0; }
+  .error-title { font-family: var(--serif); font-size: clamp(24px, 4vw, 34px); font-weight: 600; color: white; margin: 14px 0 12px; }
+  .error-text { font-family: var(--sans); font-size: 15px; color: #c1d0dc; max-width: 460px; margin: 0 auto 30px; line-height: 1.7; }
+  .error-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .error-actions .button { text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding-inline: 22px; border-radius: 4px; font-size: 14px; font-weight: 600; transition: transform .25s ease, box-shadow .25s ease, background-color .25s ease; }
+  .error-actions .button-gold { background: var(--gold); color: var(--navy-dark); }
+  .error-actions .button-gold:hover { background: #f4d5a7; transform: translateY(-2px); box-shadow: 0 7px 18px #00000040; }
+  .error-actions .button-ghost { border: 1px solid #ffffff44; color: #e0e7ed; }
+  .error-actions .button-ghost:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+</style>
+</head>
+<body>
+<main class="error-page">
+  <div>
+    <p class="error-code">404</p>
+    <h1 class="error-title">This page never took off.</h1>
+    <p class="error-text">The page you are looking for does not exist or may have been moved. Check the address, or return to familiar airspace.</p>
+    <div class="error-actions">
+      <a class="button button-gold" href="index.html">Back to home<svg class="icon small" aria-hidden="true"><use href="#arrow"/></svg></a>
+      <a class="button button-ghost" href="pages/contact.html">Contact the society</a>
+    </div>
+  </div>
+</main>
+<svg class="icon-definitions" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></symbol>
+</svg>
+</body>
+</html>

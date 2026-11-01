@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1328" role="img" aria-label="Illustration of engineers reviewing an aircraft schematic on an easel inside an assembly hangar at dusk">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b2238"/>
+      <stop offset="1" stop-color="#1d4266"/>
+    </linearGradient>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2c98f"/>
+      <stop offset=".55" stop-color="#d08a52"/>
+      <stop offset="1" stop-color="#8a4f33"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a507a"/>
+      <stop offset="1" stop-color="#0d2036"/>
+    </linearGradient>
+    <linearGradient id="fuselage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eef2"/>
+      <stop offset="1" stop-color="#a9bfce"/>
+    </linearGradient>
+    <radialGradient id="hangar-vignette" cx=".5" cy=".45" r=".75">
+      <stop offset=".62" stop-color="#06121f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#06121f" stop-opacity=".42"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="2000" height="1328" fill="url(#wall)"/>
+
+  <!-- Open hangar bay with dusk sky -->
+  <rect x="205" y="90" width="1030" height="732" fill="url(#dusk)"/>
+  <circle cx="1490" cy="620" r="104" fill="#ffe3ae" opacity=".95"/>
+  <circle cx="1490" cy="620" r="176" fill="#ffe3ae" opacity=".22"/>
+  <g fill="#ffffff" opacity=".16">
+    <ellipse cx="480" cy="300" rx="240" ry="38"/>
+    <ellipse cx="880" cy="220" rx="300" ry="44"/>
+    <ellipse cx="640" cy="560" rx="220" ry="30"/>
+  </g>
+  <path d="M205 760 L205 706 L370 706 L420 668 L610 668 L660 700 L905 700 L960 656 L1235 656 L1235 760 Z" fill="#5c3627" opacity=".55"/>
+
+  <!-- Hangar structure -->
+  <rect x="0" y="40" width="2000" height="48" fill="#0b2238"/>
+  <g stroke="#0b2238" stroke-width="10" opacity=".9">
+    <line x1="60" y1="88" x2="205" y2="200"/>
+    <line x1="205" y1="88" x2="60" y2="200"/>
+    <line x1="1940" y1="88" x2="1795" y2="200"/>
+    <line x1="1795" y1="88" x2="1940" y2="200"/>
+  </g>
+  <rect x="150" y="40" width="56" height="790" fill="#0b2238"/>
+  <rect x="1236" y="40" width="56" height="790" fill="#0b2238"/>
+
+  <!-- Ceiling lamps with light cones -->
+  <g>
+    <line x1="520" y1="88" x2="520" y2="150" stroke="#0b2238" stroke-width="8"/>
+    <path d="M468 150 L572 150 L546 196 L494 196 Z" fill="#0b2238"/>
+    <ellipse cx="520" cy="208" rx="96" ry="24" fill="#ffe3ae" opacity=".2"/>
+    <path d="M428 200 L612 200 L872 822 L168 822 Z" fill="#ffffff" opacity=".05"/>
+    <line x1="1560" y1="88" x2="1560" y2="150" stroke="#0b2238" stroke-width="8"/>
+    <path d="M1508 150 L1612 150 L1586 196 L1534 196 Z" fill="#0b2238"/>
+    <ellipse cx="1560" cy="208" rx="96" ry="24" fill="#ffe3ae" opacity=".2"/>
+    <path d="M1468 200 L1652 200 L1912 822 L1208 822 Z" fill="#ffffff" opacity=".05"/>
+  </g>
+
+  <!-- Floor -->
+  <rect x="0" y="820" width="2000" height="508" fill="url(#floor)"/>
+  <rect x="0" y="820" width="2000" height="8" fill="#dce8ee" opacity=".25"/>
+  <ellipse cx="1000" cy="1190" rx="820" ry="96" fill="#edc68b" opacity=".07"/>
+
+  <!-- Aircraft fuselage entering from the right -->
+  <g>
+    <ellipse cx="1600" cy="1006" rx="440" ry="34" fill="#06121f" opacity=".3"/>
+    <path d="M2000 336 C1770 306 1556 348 1418 476 C1348 540 1308 622 1308 700 C1308 762 1350 804 1422 816 L2000 834 Z" fill="url(#fuselage)"/>
+    <path d="M2000 336 C1770 306 1556 348 1418 476 C1348 540 1308 622 1308 700 C1308 762 1350 804 1422 816 L2000 834 Z" fill="none" stroke="#7e97a8" stroke-width="4" opacity=".5"/>
+    <path d="M1444 576 L1478 536 L1506 554 L1472 596 Z" fill="#1d4266"/>
+    <path d="M1372 748 C1560 770 1760 782 2000 788 L2000 812 C1758 806 1556 794 1396 772 Z" fill="#8fa6b5" opacity=".5"/>
+    <path d="M1368 752 C1560 774 1760 786 2000 792" fill="none" stroke="#edc68b" stroke-width="10"/>
+    <g fill="#1d4266">
+      <circle cx="1530" cy="560" r="15"/>
+      <circle cx="1620" cy="542" r="15"/>
+      <circle cx="1710" cy="530" r="15"/>
+      <circle cx="1800" cy="522" r="15"/>
+      <circle cx="1890" cy="518" r="15"/>
+    </g>
+    <g>
+      <line x1="1508" y1="800" x2="1490" y2="898" stroke="#0b2238" stroke-width="14"/>
+      <circle cx="1486" cy="910" r="26" fill="#0b2238"/>
+      <circle cx="1486" cy="910" r="10" fill="#35618a"/>
+      <line x1="1836" y1="814" x2="1822" y2="906" stroke="#0b2238" stroke-width="14"/>
+      <circle cx="1818" cy="918" r="28" fill="#0b2238"/>
+      <circle cx="1818" cy="918" r="11" fill="#35618a"/>
+    </g>
+  </g>
+
+  <!-- Blueprint easel with aircraft schematic -->
+  <g>
+    <line x1="430" y1="1094" x2="512" y2="652" stroke="#8b652e" stroke-width="16" stroke-linecap="round"/>
+    <line x1="672" y1="1094" x2="592" y2="652" stroke="#8b652e" stroke-width="16" stroke-linecap="round"/>
+    <line x1="552" y1="1090" x2="552" y2="660" stroke="#765421" stroke-width="14" stroke-linecap="round" opacity=".8"/>
+    <rect x="372" y="414" width="360" height="244" rx="12" fill="#0b2238" stroke="#8b652e" stroke-width="10"/>
+    <rect x="394" y="436" width="316" height="200" rx="6" fill="#16354f"/>
+    <g stroke="#edc68b" fill="none">
+      <line x1="552" y1="452" x2="552" y2="622" stroke-width="7"/>
+      <path d="M414 516 L690 502 L690 526 L414 540 Z" stroke-width="5"/>
+      <path d="M544 452 L470 486 M560 452 L634 486" stroke-width="5"/>
+      <circle cx="552" cy="524" r="72" stroke-width="4" stroke-dasharray="8 12" opacity=".55"/>
+      <path d="M414 596 L474 596 M630 596 L690 596" stroke-width="4" opacity=".6"/>
+      <line x1="552" y1="524" x2="648" y2="452" stroke-width="3" opacity=".5"/>
+      <circle cx="648" cy="452" r="6" fill="#edc68b" stroke="none"/>
+    </g>
+    <path d="M540 524 L552 538 L574 508" stroke="#f5d9ad" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Tool chest -->
+  <g>
+    <rect x="150" y="942" width="196" height="176" rx="10" fill="#16354f" stroke="#0b2238" stroke-width="8"/>
+    <g stroke="#0b2238" stroke-width="6" opacity=".85">
+      <line x1="166" y1="1000" x2="330" y2="1000"/>
+      <line x1="166" y1="1056" x2="330" y2="1056"/>
+    </g>
+    <g fill="#edc68b" opacity=".9">
+      <rect x="216" y="962" width="64" height="10" rx="5"/>
+      <rect x="216" y="1018" width="64" height="10" rx="5"/>
+      <rect x="216" y="1074" width="64" height="10" rx="5"/>
+    </g>
+    <circle cx="196" cy="1128" r="16" fill="#0b2238"/>
+    <circle cx="300" cy="1128" r="16" fill="#0b2238"/>
+  </g>
+
+  <!-- Engineer pointing at the schematic -->
+  <g>
+    <ellipse cx="905" cy="1150" rx="150" ry="26" fill="#06121f" opacity=".4"/>
+    <line x1="862" y1="1122" x2="874" y2="1002" stroke="#0b2238" stroke-width="34" stroke-linecap="round"/>
+    <line x1="924" y1="1122" x2="912" y2="1002" stroke="#0b2238" stroke-width="34" stroke-linecap="round"/>
+    <rect x="848" y="862" width="100" height="152" rx="42" fill="#0b2238"/>
+    <rect x="854" y="920" width="88" height="13" rx="6" fill="#edc68b" opacity=".9"/>
+    <rect x="854" y="950" width="88" height="8" rx="4" fill="#edc68b" opacity=".55"/>
+    <line x1="872" y1="902" x2="700" y2="668" stroke="#0b2238" stroke-width="26" stroke-linecap="round"/>
+    <circle cx="700" cy="664" r="12" fill="#f5d9ad"/>
+    <circle cx="898" cy="808" r="37" fill="#12314e"/>
+    <path d="M861 802 A 37 37 0 0 1 935 802 Z" fill="#edc68b"/>
+    <rect x="853" y="796" width="90" height="12" rx="6" fill="#d9ae72"/>
+  </g>
+
+  <!-- Engineer with tablet -->
+  <g>
+    <ellipse cx="1112" cy="1150" rx="140" ry="24" fill="#06121f" opacity=".4"/>
+    <line x1="1074" y1="1122" x2="1084" y2="1002" stroke="#0b2238" stroke-width="34" stroke-linecap="round"/>
+    <line x1="1130" y1="1122" x2="1120" y2="1002" stroke="#0b2238" stroke-width="34" stroke-linecap="round"/>
+    <rect x="1058" y="862" width="100" height="152" rx="42" fill="#12314e"/>
+    <rect x="1064" y="920" width="88" height="13" rx="6" fill="#edc68b" opacity=".9"/>
+    <line x1="1092" y1="906" x2="1052" y2="962" stroke="#0b2238" stroke-width="24" stroke-linecap="round"/>
+    <g transform="rotate(-8 1032 990)">
+      <rect x="972" y="952" width="122" height="84" rx="10" fill="#16354f" stroke="#edc68b" stroke-width="6"/>
+      <rect x="984" y="964" width="98" height="60" rx="4" fill="#f5d9ad" opacity=".9"/>
+      <path d="M996 994 L1046 994 M996 1012 L1030 1012" stroke="#765421" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <circle cx="1108" cy="808" r="37" fill="#12314e"/>
+    <path d="M1071 802 A 37 37 0 0 1 1145 802 Z" fill="#edc68b"/>
+    <rect x="1063" y="796" width="90" height="12" rx="6" fill="#d9ae72"/>
+  </g>
+
+  <rect width="2000" height="1328" fill="url(#hangar-vignette)"/>
+</svg>
+

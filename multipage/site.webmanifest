@@ -1,0 +1,23 @@
+{
+  "name": "Society for Airworthiness and Certification",
+  "short_name": "Airworthiness SAC",
+  "description": "A shared commitment to airworthiness and certification. Expertise connected. Confidence in flight.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#102d47",
+  "theme_color": "#102d47",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/cemilac_logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
