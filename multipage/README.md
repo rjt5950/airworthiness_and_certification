@@ -5,21 +5,6 @@
 
 This is the refined multipage prototype. It has a task-led homepage, a compact mobile introduction, readable page layouts, a searchable resource library with sample outline previews, and a stationary notices archive. The original version is maintained separately in the sibling `singlepage/` folder.
 
-## Open and compare
-
-- Original scrolling version: `../singlepage/index.html`
-- New multipage version: `index.html` in this folder
-
-Double-click this folder's `index.html` to open the new version. No build step, server, package installation, or internet connection is needed.
-
-You can also serve this folder with:
-
-```powershell
-python -m http.server 8080 --bind 127.0.0.1 --directory multipage
-```
-
-Run the command from the workspace root and visit http://127.0.0.1:8080.
-
 ## Page structure
 
 | Navigation | File | Content |
